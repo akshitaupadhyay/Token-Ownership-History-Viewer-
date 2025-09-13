@@ -1,0 +1,15 @@
+[package]
+name = "Token-Ownership-History-Viewer"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x5e9d585268644be298b3564e3fa22c4e23a7f979486a5193bfeb77a606552965"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
